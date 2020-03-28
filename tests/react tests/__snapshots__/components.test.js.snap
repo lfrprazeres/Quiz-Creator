@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components tests should render Button without crash with the properly props 1`] = `
+<Styled(WithStyles(ForwardRef(Button)))
+  bg="blue"
+  className="className"
+  color="primary"
+  onClick={[MockFunction]}
+  variant="contained"
+/>
+`;
+
+exports[`Components tests should render CreateSection without crash with the properly props 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(CreateSection)
+    backTitle="Back to List"
+    buttonText="Next"
+    current="1"
+    onClickButton={[MockFunction]}
+    title="component title"
+    total="2"
+  />
+</ContextProvider>
+`;
+
+exports[`Components tests should render QuizTable without crash with the properly props 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(QuizTable)
+    onDeleteQuiz={[MockFunction]}
+    quiz={
+      Array [
+        Array [
+          1,
+          "title 1",
+          "description 1",
+        ],
+        Array [
+          2,
+          "title 2",
+          "description 2",
+        ],
+        Array [
+          3,
+          "title 2",
+          "description 3",
+        ],
+      ]
+    }
+  />
+</ContextProvider>
+`;
