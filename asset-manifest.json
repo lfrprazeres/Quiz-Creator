@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Quiz-Creator/static/css/main.5f00d9d5.chunk.css",
+    "main.js": "/Quiz-Creator/static/js/main.023a8a74.chunk.js",
+    "main.js.map": "/Quiz-Creator/static/js/main.023a8a74.chunk.js.map",
+    "runtime-main.js": "/Quiz-Creator/static/js/runtime-main.36ba049c.js",
+    "runtime-main.js.map": "/Quiz-Creator/static/js/runtime-main.36ba049c.js.map",
+    "static/js/2.2dc14342.chunk.js": "/Quiz-Creator/static/js/2.2dc14342.chunk.js",
+    "static/js/2.2dc14342.chunk.js.map": "/Quiz-Creator/static/js/2.2dc14342.chunk.js.map",
+    "index.html": "/Quiz-Creator/index.html",
+    "precache-manifest.ab6ef8d2c3e3b07373348a8d1e1b9288.js": "/Quiz-Creator/precache-manifest.ab6ef8d2c3e3b07373348a8d1e1b9288.js",
+    "service-worker.js": "/Quiz-Creator/service-worker.js",
+    "static/css/main.5f00d9d5.chunk.css.map": "/Quiz-Creator/static/css/main.5f00d9d5.chunk.css.map",
+    "static/js/2.2dc14342.chunk.js.LICENSE.txt": "/Quiz-Creator/static/js/2.2dc14342.chunk.js.LICENSE.txt",
+    "static/media/wave.svg": "/Quiz-Creator/static/media/wave.92235ad1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36ba049c.js",
+    "static/js/2.2dc14342.chunk.js",
+    "static/css/main.5f00d9d5.chunk.css",
+    "static/js/main.023a8a74.chunk.js"
+  ]
+}
