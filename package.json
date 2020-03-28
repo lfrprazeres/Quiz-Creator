@@ -1,8 +1,9 @@
 {
-  "name": "frontend",
+  "name": "quiz-creator",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://lfrprazeres.github.io/Quiz-Creator/",
+  "author": "Luiz Fernando Ribeiro dos Prazeres",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
