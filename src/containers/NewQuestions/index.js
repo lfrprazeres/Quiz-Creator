@@ -53,7 +53,7 @@ function NewQuestions(props) {
 
     useEffect(() => {
         // catch the quiz ID from the URI
-        let id = parseInt(props.location.pathname.split("/")[2]);
+        let id = parseInt(props.location.pathname.split("/")[3]);
         const haveQuiz = props.quiz.find(quiz => quiz.id === id);
         // check if have the quiz, if it's not, alert the user and redirect to the quiz list
         if(!haveQuiz) {
