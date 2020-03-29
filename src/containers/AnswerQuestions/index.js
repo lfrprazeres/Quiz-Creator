@@ -7,10 +7,12 @@ import Question from './Question'
 function AnswerQuestions(props) {
     const history = useHistory();
     // path and quizId catch the quizId from the URI
-    const path = props.location.pathname;
+    const path = props.location.pathname.split("/");
     const quizId = parseInt(path[path.length - 1]);
     // catch the questions based on the quizId on the URI
-    let [ data ] = useState(props.quiz.find(element => element.id === quizId));
+    let [ data ] = useState(props.quiz.find(element => {
+        return element.id === quizId
+    }));
     useEffect(() => {
         const haveQuiz = props.quiz.find(quiz => quiz.id === quizId);
         // check if have this quiz in the redux, if it's not, alert the user and redirect the page
