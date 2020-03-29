@@ -16,12 +16,12 @@ function AnswerQuestions(props) {
         // check if have this quiz in the redux, if it's not, alert the user and redirect the page
         if(!haveQuiz) {
             alert("you must have a quiz with this ID");
-            setTimeout(history.push("/"), 2000);
+            setTimeout(history.push("/Quiz-Creator"), 2000);
         }
     },[])
 
     function handleDoneAnswerQuiz() {
-        history.push("/");
+        history.push("/Quiz-Creator");
     }
     
     return (

@@ -77,7 +77,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
         createQuiz: async ( title, description, history ) => {
             await dispatch(createQuiz(title,description));
             const quizId = localStorage.getItem('quizId');
-            history.push(`/quiz/${quizId}/questions/new`);
+            history.push(`/Quiz-Creator/quiz/${quizId}/questions/new`);
         }
     }
 }

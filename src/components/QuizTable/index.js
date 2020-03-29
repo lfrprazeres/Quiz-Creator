@@ -36,7 +36,7 @@ function QuizTable (props) {
         download: false,
         print: false,
         onRowClick: row => {
-            history.push(`/quiz/${row[0]}`);
+            history.push(`/Quiz-Creator/quiz/${row[0]}`);
         },
         onRowsDelete: rowsDeleted => {
             const idsDeleted = rowsDeleted.data.map(row => row.index)

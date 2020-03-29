@@ -58,7 +58,7 @@ function NewQuestions(props) {
         // check if have the quiz, if it's not, alert the user and redirect to the quiz list
         if(!haveQuiz) {
             alert("you must have a quiz with this ID");
-            setTimeout(history.push("/"), 2000);
+            setTimeout(history.push("/Quiz-Creator"), 2000);
         }
     }, [])
     function handleChangeQuestion(id, value) {
@@ -192,7 +192,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     return {
         createQuestions: async ( questions, history ) => {
             await dispatch(createQuestions(questions));
-            history.push(`/`);
+            history.push(`/Quiz-Creator`);
         }
     }
 }

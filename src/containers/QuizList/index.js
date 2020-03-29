@@ -35,7 +35,7 @@ function QuizList(props) {
         <QuizListStyled primarycolor={props.app.primaryColor}>
             <h1> Quiz Creator </h1>
             <div className="createButtonContainer">
-                <Button variant="contained" color="primary" component="span" onClick={() => history.push("/quiz/new")}>
+                <Button variant="contained" color="primary" component="span" onClick={() => history.push("/Quiz-Creator/quiz/new")}>
                     Create new Quiz
                 </Button>
             </div>
