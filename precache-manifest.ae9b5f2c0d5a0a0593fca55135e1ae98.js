@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0d1da0c35d5b53f47a1897889badc41",
+    "revision": "f230ddad595df0cf3f6b89e53cbad137",
     "url": "/Quiz-Creator/index.html"
   },
   {
-    "revision": "ca8b41ee1decef74efe7",
+    "revision": "18fd7c1c3467f03fe7dd",
     "url": "/Quiz-Creator/static/css/main.5f00d9d5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Quiz-Creator/static/js/2.3e3c8111.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca8b41ee1decef74efe7",
-    "url": "/Quiz-Creator/static/js/main.494292e7.chunk.js"
+    "revision": "18fd7c1c3467f03fe7dd",
+    "url": "/Quiz-Creator/static/js/main.e85a5bce.chunk.js"
   },
   {
     "revision": "522447274c278e4faf1b",
