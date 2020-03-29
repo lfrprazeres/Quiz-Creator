@@ -17,10 +17,10 @@ export default function Routes() {
         <Router>
             <Switch>
                 {/* assuming that the main route of the Application is the quiz list */}
-                <Route exact path="/" component={QuizList} />
-                <Route path="/quiz/new" component={NewQuiz} />
-                <Route path="/quiz/:id/questions/new" component={NewQuestions} />
-                <Route path="/quiz/:id" component={AnswerQuestions} />
+                <Route exact path="/Quiz-Creator" component={QuizList} />
+                <Route path="/Quiz-Creator/quiz/new" component={NewQuiz} />
+                <Route path="/Quiz-Creator/quiz/:id/questions/new" component={NewQuestions} />
+                <Route path="/Quiz-Creator/quiz/:id" component={AnswerQuestions} />
             </Switch>
         </Router>
     )
